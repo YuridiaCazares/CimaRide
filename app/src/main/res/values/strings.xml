@@ -1,0 +1,63 @@
+<resources>
+    <!-- Strings reutilizables en todos los layouts-->
+    <string name="app_Name">CimaRide</string>
+    <string name="TextoUniversidad">Universidad Autónoma de Baja California</string>
+
+    <!-- Strings main layout -->
+    <string name="B_InicioSesión">Iniciar sesión</string>
+    <string name="B_Registrar">Registrarse</string>
+
+
+    <!-- Strings second layout -->
+    <string name="pag_registro">Registro</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido">Apellidos</string>
+    <string name="matricula">Matricula</string>
+    <string name="correo">correo@uabc.edu.mx</string>
+    <string name="fecha_nacimiento">Fecha de nacimiento</string>
+    <string name="password">Contraseña</string>
+    <string name="r_password">Repita contraseña</string>
+    <string name="boton_terminarRegistro">Registrarse</string>
+    <string name="boton_RegistroConductor">Registrarse como conductor</string>
+    <string name="flecha">Flecha</string>
+    <string name="logoInferior">LogoInferior</string>
+    <string name="logoPrincipal">LogoPrincipal</string>
+    <string name="vizualizaPassword">vizualizaPassword</string>
+    <string name="vizualizaConf_Password">vizualizaConf_Password</string>
+
+
+    <!-- Strings third layout -->
+    <string name="TituloRegistroCond">Registro conductor</string>
+    <string name="No.Licencia">No. Licencia</string>
+    <string name="Vigencia">Vigencia</string>
+    <string name="RegistroVehículo">Registro del vehículo</string>
+    <string name="Modelo">Modelo</string>
+    <string name="No.Placas">No. de placas</string>
+    <string name="Color">Color</string>
+    <string name="PosiblesRutas">Posibles rutas</string>
+    <string name="Turno">Turno</string>
+    <string name="Vespertino">Vespertino</string>
+    <string name="Matutino">Matutino</string>
+    <string name="Ambos">Ambos</string>
+    <string name="RegistrarseCond">Registrarse</string>
+
+    <!-- Strings Rutas layout -->
+
+
+    <!-- Strings Fourth layout -->
+    <string name="Bienvenido">¡Bienvenido!</string>
+    <string name="Pasajero">Pasajero</string>
+    <string name="Conductor">Conductor</string>
+    <string name="Iniciarsesión">Iniciar sesión como:</string>
+    <string name="OlvidasteContraseña"><u>¿Olvidaste tu contraseña?</u></string>
+
+    <!-- Strings Fifth layout violeta and cimarron-->
+    <string name="Edad">Edad</string>
+    <string name="T_Usuario">Tipo Usuario</string>
+    <string name="ViajesRealizados">viajes realizados</string>
+    <string name="Genero">Género</string>
+    <string name="Reviews">Reviews</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
