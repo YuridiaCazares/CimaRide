@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondogeneral">
+
+
+    <TextView
+        android:id="@+id/CimaRide"
+        android:layout_width="143dp"
+        android:layout_height="51dp"
+        android:text="@string/app_Name"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.94"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.035"
+        tools:ignore="TextSizeCheck" />
+
+
+    <Button
+        android:id="@+id/esteticanombre"
+        android:layout_width="330dp"
+        android:layout_height="36dp"
+        android:backgroundTint="@color/Gris"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.500"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.180"
+        tools:ignore="SpeakableTextPresentCheck,DuplicateClickableBoundsCheck,TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/esteticamatricula"
+        android:layout_width="330dp"
+        android:layout_height="36dp"
+        android:backgroundTint="@color/Gris"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.500"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.300"
+        tools:ignore="SpeakableTextPresentCheck,DuplicateClickableBoundsCheck,TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/esteticacorreo"
+        android:layout_width="330dp"
+        android:layout_height="36dp"
+        android:backgroundTint="@color/Gris"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.500"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.360"
+        tools:ignore="SpeakableTextPresentCheck,DuplicateClickableBoundsCheck,TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/esteticaapellido"
+        android:layout_width="330dp"
+        android:layout_height="36dp"
+        android:backgroundTint="@color/Gris"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.500"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.240"
+        tools:ignore="SpeakableTextPresentCheck,DuplicateClickableBoundsCheck,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/paginaRegistro"
+        android:layout_width="127dp"
+        android:layout_height="53dp"
+        android:fontFamily="@font/roboto"
+        android:text="@string/pag_registro"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.109"
+        tools:ignore="TextSizeCheck" />
+
+    <EditText
+        android:id="@+id/recibeNombre"
+        android:layout_width="330dp"
+        android:layout_height="36dp"
+        android:autofillHints="Nombre"
+        android:ems="30"
+        android:inputType="text"
+        android:text="@string/nombre"
+        android:textColor="@color/GrisNegro"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.500"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.180"
+        tools:ignore="LabelFor,TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/recibeApellido"
+        android:layout_width="330dp"
+        android:layout_height="36dp"
+        android:autofillHints="Apellido"
+        android:ems="30"
+        android:inputType="text"
+        android:text="@string/apellido"
+        android:textColor="@color/GrisNegro"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.500"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.240"
+        tools:ignore="LabelFor,TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/recibeMatricula"
+        android:layout_width="330dp"
+        android:layout_height="36dp"
+        android:autofillHints="Matrícula"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:text="@string/matricula"
+        android:textColor="@color/GrisNegro"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.300"
+        tools:ignore="LabelFor,TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/recibeCorreo"
+        android:layout_width="330dp"
+        android:layout_height="36dp"
+        android:autofillHints="Correo"
+        android:ems="50"
+        android:inputType="textEmailAddress"
+        android:text="@string/correo"
+        android:textColor="@color/GrisNegro"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.500"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.360"
+        tools:ignore="LabelFor,TouchTargetSizeCheck" />
+
+
+
+
+
+    <ImageButton
+        android:id="@+id/BotonFlecha"
+        android:layout_width="74dp"
+        android:layout_height="58dp"
+        android:backgroundTint="@color/colorfondo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.047"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.025"
+        app:srcCompat="@android:drawable/ic_menu_revert"
+        android:contentDescription="@string/flecha" />
+
+    <Button
+        android:id="@+id/BotonRegistrarConductor"
+        android:layout_width="200dp"
+        android:layout_height="58dp"
+        android:backgroundTint="@color/colorfondo"
+        android:text="@string/boton_RegistroConductor"
+        android:fontFamily="@font/roboto"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.500"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.830" />
+
+    <Button
+        android:id="@+id/esteticaPassword"
+        android:layout_width="250dp"
+        android:layout_height="36dp"
+        android:backgroundTint="@color/Gris"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.270"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.590"
+        tools:ignore="DuplicateClickableBoundsCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/esteticaPassword2"
+        android:layout_width="250dp"
+        android:layout_height="36dp"
+        android:backgroundTint="@color/Gris"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.270"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.650"
+        tools:ignore="DuplicateClickableBoundsCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/BotonRegistrarse_2"
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:backgroundTint="@color/Amarillo"
+        android:fontFamily="@font/roboto"
+        android:text="@string/boton_terminarRegistro"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.500"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.730"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/esteticaFechaNacimiento"
+        android:layout_width="330dp"
+        android:layout_height="36dp"
+        android:backgroundTint="@color/Gris"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.500"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.530"
+        tools:ignore="TouchTargetSizeCheck,DuplicateClickableBoundsCheck,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textoUniversidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/almendra"
+        android:text="@string/TextoUniversidad"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.500"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.977" />
+
+    <ImageView
+        android:id="@+id/logoinferior2"
+        android:layout_width="94dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.500"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.955"
+        app:srcCompat="@drawable/figurabotoncimarron"
+        android:contentDescription="@string/logoInferior" />
+
+    <EditText
+        android:id="@+id/recibeFechaNacimiento"
+        android:layout_width="330dp"
+        android:layout_height="36dp"
+        android:ems="10"
+        android:inputType="date"
+        android:text="@string/fecha_nacimiento"
+        android:textColor="@color/GrisNegro"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.500"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.530"
+        tools:ignore="Autofill,LabelFor,TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/recibePassword"
+        android:layout_width="250dp"
+        android:layout_height="36dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="@string/password"
+        android:textColor="@color/GrisNegro"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.270"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.590"
+        tools:ignore="Autofill,LabelFor,TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/ConfirmaPassword"
+        android:layout_width="250dp"
+        android:layout_height="36dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="@string/r_password"
+        android:textColor="@color/GrisNegro"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.270"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.650"
+        tools:ignore="Autofill,LabelFor,TouchTargetSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/verPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:contentDescription="@string/vizualizaPassword"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.825"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.589"
+        app:srcCompat="@android:drawable/ic_menu_view"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/verConfirmacionPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:contentDescription="@string/vizualizaConf_Password"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.825"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.650"
+        app:srcCompat="@android:drawable/ic_menu_view"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/botonmujer"
+        android:layout_width="91dp"
+        android:layout_height="70dp"
+        android:backgroundTint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.30"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.45"
+        app:srcCompat="@drawable/boton_mujer"
+        tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/botonhombre"
+        android:layout_width="59dp"
+        android:layout_height="64dp"
+        android:backgroundTint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.700"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.44"
+        app:srcCompat="@drawable/botonhombre"
+        tools:ignore="ContentDescription,SpeakableTextPresentCheck"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

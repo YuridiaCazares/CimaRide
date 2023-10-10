@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_violeta">
+
+
+    <ImageButton
+        android:id="@+id/botonV"
+        android:layout_width="163dp"
+        android:layout_height="98dp"
+        android:backgroundTint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.880"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.120"
+        app:srcCompat="@drawable/botonvioleta"
+        tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/BotonModoCimarron"
+        android:layout_width="163dp"
+        android:layout_height="98dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.120"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.120"
+        app:srcCompat="@drawable/botoncimarron2"
+        tools:ignore="ContentDescription,SpeakableTextPresentCheck"
+        tools:layout_editor_absoluteY="98dp" />
+
+
+    <ImageView
+        android:id="@+id/fondo_principal_inferior"
+        android:layout_width="395dp"
+        android:layout_height="422dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/fondo_principal_inferior"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/botonHome"
+        android:layout_width="47dp"
+        android:layout_height="37dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/fondo_principal_inferior"
+        app:layout_constraintHorizontal_bias="0.070"
+        app:layout_constraintStart_toStartOf="@+id/fondo_principal_inferior"
+        app:layout_constraintTop_toTopOf="@+id/fondo_principal_inferior"
+        app:layout_constraintVertical_bias="0.958"
+        app:srcCompat="@drawable/boton_principal_home"
+        tools:ignore="ContentDescription,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/botonUbicacion"
+        android:layout_width="47dp"
+        android:layout_height="37dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/fondo_principal_inferior"
+        app:layout_constraintHorizontal_bias="0.350"
+        app:layout_constraintStart_toStartOf="@+id/fondo_principal_inferior"
+        app:layout_constraintTop_toTopOf="@+id/fondo_principal_inferior"
+        app:layout_constraintVertical_bias="0.958"
+        app:srcCompat="@drawable/boton_principal_ubicacion"
+        tools:ignore="ContentDescription,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/botonHistorial"
+        android:layout_width="47dp"
+        android:layout_height="37dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/fondo_principal_inferior"
+        app:layout_constraintHorizontal_bias="0.630"
+        app:layout_constraintStart_toStartOf="@+id/fondo_principal_inferior"
+        app:layout_constraintTop_toTopOf="@+id/fondo_principal_inferior"
+        app:layout_constraintVertical_bias="0.958"
+        app:srcCompat="@drawable/boton_principal_historial"
+        tools:ignore="ContentDescription,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+
+    <ImageButton
+        android:id="@+id/botonPerfil"
+        android:layout_width="47dp"
+        android:layout_height="37dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/fondo_principal_inferior"
+        app:layout_constraintHorizontal_bias="0.910"
+        app:layout_constraintStart_toStartOf="@+id/fondo_principal_inferior"
+        app:layout_constraintTop_toTopOf="@+id/fondo_principal_inferior"
+        app:layout_constraintVertical_bias="0.958"
+        app:srcCompat="@drawable/boton_principal_perfil"
+        tools:ignore="ContentDescription,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
